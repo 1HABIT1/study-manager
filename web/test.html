@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="lib/jquery/jquery-1.8.2.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<input class="notice" type="checkbox" name="notice">
+	11111
+	<input class="notice" type="checkbox" name="notice">
+	22222
+	<input class="notice" type="checkbox" name="notice">
+	33333
+	<input class="notice" type="checkbox" name="notice">
+	44444
+	<input class="notice" type="checkbox" name="notice">
+	55555
+	<button id="btn">点击</button>
+	<script>
+		$(function(){
+			$("#btn").on("click",function(){
+
+					var input = $(".notice")[3];
+					console.log(input);
+					console.log($(input).is(":checked"));
+
+			});
+		});
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+body,
+html{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+
+a{
+	text-decoration: none;
+    color: rgb(110, 130, 155);
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
